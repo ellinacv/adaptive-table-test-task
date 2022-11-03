@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive Table</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="table-title">В июле 2021 года я потратил на свои фирмы 15 878 ₽</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Дата</th>
+            <th>Трата</th>
+            <th>На что</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th title="Дата" rowspan="2">1 июля</th>
+            <td aria-label="Трата">11 113 ₽</td>
+            <td aria-label="На что">Оплата электроэнергии</td>
+          </tr>
+          <tr>
+            <td aria-label="Трата">2500 ₽</td>
+            <td aria-label="На что">Два куллера</td>
+          </tr>
+          <tr>
+          <tr>
+            <th title="Дата">16 июля</th>
+            <td aria-label="Трата">1365 ₽</td>
+            <td aria-label="На что">Вентилятор</td>
+          </tr>
+          <tr>
+            <th title="Дата">30 июля</th>
+            <td aria-label="Трата">900 ₽</td>
+            <td aria-label="На что">Сетевой фильтр взамен сгоревшего</td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+</body>
+</html>
